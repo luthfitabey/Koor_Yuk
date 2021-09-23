@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/defaultBackground"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:focusedByDefault="true"
+    android:orientation="vertical"
+    tools:context=".view.User.RegisterActivity"
+    tools:ignore="UnusedAttribute">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/medium">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/medium"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/lightBlue">
+
+                <TextView
+                    android:id="@+id/toolbar_text"
+                    style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/grey" />
+            </androidx.appcompat.widget.Toolbar>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small"
+            android:layout_marginStart="@dimen/medium"
+            android:layout_marginEnd="@dimen/medium"
+            android:layout_marginBottom="@dimen/small"
+            android:orientation="vertical"
+            tools:ignore="UselessLeaf">
+
+            <!-- ______________IMPORTANT______________ -->
+            <!-- Change code inside this bracket only! -->
+            <!-- _____________________________________ -->
+
+            <EditText
+                android:id="@+id/form_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/name"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/form_username"
+                style="@style/GlobalEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/username"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/form_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/password"
+                android:inputType="textPassword" />
+
+            <EditText
+                android:id="@+id/form_cPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/cPassword"
+                android:inputType="textPassword" />
+
+            <EditText
+                android:id="@+id/form_role"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/role"
+                android:inputType="textPassword" />
+
+            <include layout="@layout/layout_button" />
+        </LinearLayout>
+
+<!--        <TextView-->
+<!--            android:id="@+id/txt_title_register"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="@dimen/medium"-->
+<!--            android:ellipsize="end"-->
+<!--            android:maxLines="2"-->
+<!--            android:text="@string/register"-->
+<!--            android:textColor="@color/fontDefault"-->
+<!--            android:textSize="22sp" />-->
+
+        <include layout="@layout/layout_thieft_focus" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="290dp">
+
+    <ImageView
+        android:id="@+id/greeting_img"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/greeting_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:textColor="#006468"
+        android:textSize="18sp" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/car4"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_margin="11dp"
+            android:background="#fff"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/txt_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/bappeda"
+                    android:textColor="#000"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+                <!--                    android:background="@drawable/ic_saldo_bg"-->
+                <LinearLayout
+                    android:id="@+id/garis"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@id/txt_name"
+                    android:layout_marginTop="10dp"
+                    android:background="#f0efef"
+                    android:orientation="horizontal" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/garis"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:baselineAligned="false">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:layout_weight="0.50"
+                        android:background="?attr/selectableItemBackground"
+                        android:gravity="center"
+                        android:onClick="btnProfile">
+
+                        <ImageView
+                            android:id="@+id/profileUser"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/ic_meeting"
+                            android:contentDescription="@string/profileUser" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/profileUser"
+                            android:gravity="center"
+                            android:text="@string/profil"
+                            android:textColor="#000"
+                            android:textSize="12dp" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:layout_marginEnd="25dp"
+                        android:layout_weight="0.50"
+                        android:background="?attr/selectableItemBackground"
+                        android:gravity="center"
+                        android:onClick="goToIg">
+
+                        <ImageView
+                            android:id="@+id/igBappeda"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/ic_ig" />
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/igBappeda"
+                            android:gravity="center"
+                            android:text="@string/instagram"
+                            android:textColor="#000"
+                            android:textSize="12dp" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:layout_marginEnd="25dp"
+                        android:layout_weight="0.50"
+                        android:background="?attr/selectableItemBackground"
+                        android:gravity="center"
+                        android:onClick="goToWeb">
+
+                        <ImageView
+                            android:id="@+id/web"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/ic_web" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/web"
+                            android:gravity="center"
+                            android:text="@string/web"
+                            android:textColor="#000"
+                            android:textSize="12sp" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/defaultBackground"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:focusedByDefault="true"
+    android:orientation="vertical"
+    tools:context=".view.MeetingUser.AddMeeting"
+    tools:ignore="UnusedAttribute">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/medium">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/medium"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/lightBlue">
+
+                <TextView
+                    android:id="@+id/toolbar_text"
+                    style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/grey" />
+            </androidx.appcompat.widget.Toolbar>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small"
+            android:layout_marginStart="@dimen/medium"
+            android:layout_marginEnd="@dimen/medium"
+            android:layout_marginBottom="@dimen/small"
+            android:paddingBottom="@dimen/medium"
+            android:orientation="vertical"
+            tools:ignore="UselessLeaf">
+
+            <!-- ______________IMPORTANT______________ -->
+            <!-- Change code inside this bracket only! -->
+            <!-- _____________________________________ -->
+            <EditText
+                android:id="@+id/form_topic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/topik"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/tanggal"/>
+
+            <EditText
+                android:id="@+id/time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/time1"/>
+            <EditText
+                android:id="@+id/time2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/time2"/>
+
+            <EditText
+                android:id="@+id/form_place"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/tempat"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/point1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/poin1"
+                android:inputType="text" />
+            <EditText
+                android:id="@+id/point2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/poin2"
+                android:inputType="text" />
+            <EditText
+                android:id="@+id/point3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/poin3"
+                android:inputType="text" />
+            <EditText
+                android:id="@+id/point4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/poin4"
+                android:inputType="text" />
+            <EditText
+                android:id="@+id/point5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/poin5"
+                android:inputType="text" />
+            <EditText
+                android:id="@+id/lampiran"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/lampiran"
+                android:inputType="text" />
+
+            <include layout="@layout/layout_button" />
+        </LinearLayout>
+
+        <include layout="@layout/layout_thieft_focus" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

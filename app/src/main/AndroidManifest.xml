@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.anjilibey.kooryuk">
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".view.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".view.TL.SubmitDecision" />
+        <activity android:name=".view.MeetingUser.SelectMeeting" />
+        <activity android:name=".view.ProfileActivity" />
+        <activity android:name=".view.TL.TLShow" />
+        <activity android:name=".view.MeetingAdmin.UpdateMeeting" />
+        <activity android:name=".view.User.ViewUser" />
+        <activity android:name=".view.User.EditUser" />
+        <activity android:name=".view.MeetingKaban.ViewMeeting" />
+        <activity android:name=".view.LoginActivity" />
+        <activity android:name=".view.User.RegisterActivity" />
+        <activity android:name=".view.Dashboard.HomeUserActivity" />
+        <activity android:name=".view.Dashboard.HomeKabanActivity" />
+        <activity android:name=".view.MeetingUser.AddMeeting" />
+        <activity android:name=".view.Dashboard.HomeAdminActivity" />
+        <activity android:name=".view.MeetingUser.ViewTL"></activity>
+        <activity android:name=".view.MeetingUser.ViewMeetingUser" />
+        <activity android:name=".view.MeetingUser.SelectTL"></activity>
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="barcode" />
+    </application>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

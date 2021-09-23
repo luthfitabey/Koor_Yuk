@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!--Font Size -->
+    <dimen name="font_xsmall">12sp</dimen>
+    <dimen name="font_small">14sp</dimen>
+    <dimen name="font_medium">16sp</dimen>
+    <dimen name="font_large">22sp</dimen>
+    <dimen name="font_xlarge">34sp</dimen>
+    <dimen name="font_xxlarge">45sp</dimen>
+    <dimen name="font_xxxlarge">56sp</dimen>
+
+    <!-- Margin or Padding -->
+    <dimen name="small">8dp</dimen>
+    <dimen name="medium">16dp</dimen>
+    <dimen name="large">24dp</dimen>
+    <dimen name="xlarge">32dp</dimen>
+    <dimen name="xxlarge">40dp</dimen>
+    <dimen name="xxxlarge">60dp</dimen>
+    <dimen name="bigsize">150dp</dimen>
+    <dimen name="standard_height">48dp</dimen>
+
+    <dimen name="itemPaddingStart">20dp</dimen>
+
+    <dimen name="text_title">22sp</dimen>
+    <dimen name="text_subtitle">18sp</dimen>
+
+    <dimen name="bottom_sheet_corner_radius">16dp</dimen>
+    <dimen name="bottom_sheet_top_padding">8dp</dimen>
+
+    <!-- For pre-login home -->
+    <dimen name="prehome_top_height">245dp</dimen>
+    <dimen name="prehome_logo_width">70dp</dimen>
+    <dimen name="prehome_logo_height">35dp</dimen>
+    <dimen name="prehome_ornament_height">145dp</dimen>
+    <dimen name="prehome_ornament_margin">15dp</dimen>
+    <dimen name="prehome_ornament_bg_height">180dp</dimen>
+
+    <!-- For home after login -->
+    <dimen name="posthome_menu_top">45dp</dimen>
+    <dimen name="posthome_top_height">300dp</dimen>
+    <dimen name="posthome_photo_size">100dp</dimen>
+    <dimen name="posthome_widget_height">160dp</dimen>
+
+    <!-- Both pre-login and after login home -->
+    <dimen name="home_menu_size">80dp</dimen>
+    <dimen name="home_menu_corner_size">25dp</dimen>
+
+    <!-- Login -->
+    <dimen name="login_logo_width">160dp</dimen>
+    <dimen name="login_logo_height">120dp</dimen>
+    <dimen name="login_logo_re_width">100dp</dimen>
+    <dimen name="login_logo_re_height">80dp</dimen>
+    <dimen name="login_ornament_height">200dp</dimen>
+    <dimen name="login_ornament_width">180dp</dimen>
+
+    <!-- Promo in home, list, and detail -->
+    <dimen name="promo_height">130dp</dimen>
+    <dimen name="promo_height_full">150dp</dimen>
+
+    <!-- News in home and detail -->
+    <dimen name="news_height">180dp</dimen>
+
+    <!-- Setting fragment -->
+    <dimen name="setting_top_height">250dp</dimen>
+
+    <!-- Simulator -->
+    <dimen name="simulator_top_height">150dp</dimen>
+    <dimen name="simulator_ornament_width">180dp</dimen>
+    <dimen name="simulator_card_height">100dp</dimen>
+    <dimen name="simulator_card_margin">-50dp</dimen>
+    <dimen name="simulator_scroll_padding">50dp</dimen>
+
+    <!-- Ayat and hadits -->
+    <dimen name="hadis_top_height">200dp</dimen>
+    <dimen name="hadis_pager_height">170dp</dimen>
+
+    <dimen name="design_bottom_navigation_text_size" tools:override="true">10sp</dimen>
+    <dimen name="design_bottom_navigation_active_text_size" tools:override="true">10sp</dimen>
+</resources>

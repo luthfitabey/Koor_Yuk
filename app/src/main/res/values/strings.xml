@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Koor Yuk</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <!-- Feature -->
+    <string name="account">Akun</string>
+    <string name="activation">Aktivasi</string>
+    <string name="forget_password">Lupa Password</string>
+    <string name="forget_username">Lupa Username</string>
+    <string name="forgot_password_message">Silahkan masukkan username anda terlebih dahulu</string>
+    <string name="help">Bantuan</string>
+    <string name="home">Beranda</string>
+    <string name="login">Masuk</string>
+    <string name="notification">Notifikasi</string>
+
+    <!-- Login -->
+    <string name="register">Register User</string>
+    <string name="login_register_account">Belum punya akun? Buat disini</string>
+    <string name="username" translatable="false">Username</string>
+    <string name="password" translatable="false">Password</string>
+    <string name="name">Nama</string>
+    <string name="cPassword" translatable="false">Konfirmasi Password</string>
+    <string name="keterangan">Keterangan:</string>
+    <string name="isi_field">Harap isi semua field *</string>
+    <string name="submit">Submit</string>
+    <string name="home_menu">Koor Yuk!</string>
+    <string name="profil">Profil</string>
+    <string name="tindakLanjut">Tindak Lanjut</string>
+    <string name="addRapat">Tambah Rapat</string>
+    <string name="lihatRapat">Lihat Rapat</string>
+    <string name="keluar">Log Out</string>
+    <string name="addUser">Tambah User</string>
+    <string name="ubahUser">Ubah User</string>
+    <string name="lihatUser">Lihat User</string>
+    <string name="updateMeeting">Ubah Rapat</string>
+    <string name="lihatMeeting">Lihat Rapat</string>
+    <string name="updateDirection">Ubah TL</string>
+    <string name="lihatTL">Lihat TL</string>
+    <string name="role">Role (1=admin, 2=user, 3=kaban)</string>
+    <string name="bappeda">Bappeda Litbang Kota Mojokerto</string>
+    <string name="profileUser">profil</string>
+    <string name="instagram">Instagram</string>
+    <string name="web">Web</string>
+    <string name="slogan">"Smart Plan For Better Future"</string>
+    <string name="nikmati">Nikmati layanan kami</string>
+    <string name="jabatan">Jabatan</string>
+    <string name="nip">NIP</string>
+    <string name="jenis_kelamin">Jenis Kelamin</string>
+    <string name="ubah_password">Ubah Password</string>
+    <string name="log_out">Log Out</string>
+    <string name="topik">Topik *</string>
+    <string name="tempat">Tempat *</string>
+    <string name="poin1">Poin 1 *</string>
+    <string name="poin2">Poin 2</string>
+    <string name="poin3">Poin 3</string>
+    <string name="poin4">Poin 4</string>
+    <string name="poin5">Poin 5</string>
+    <string name="tanggal">Tanggal *</string>
+    <string name="time">Waktu *</string>
+    <string name="time1">Waktu Mulai *</string>
+    <string name="time2">Waktu Selesai *</string>
+    <string name="lampiran">Link Lampiran</string>
+    <string name="tgl">Tanggal</string>
+    <string name="tglEx">2021-06-07</string>
+    <string name="waktu_mulai">Waktu Mulai</string>
+    <string name="waktuME">09.30</string>
+    <string name="waktu_selesai">Waktu Selesai</string>
+    <string name="place">Tempat</string>
+    <string name="placeE">Aula</string>
+    <string name="Pegawai">Luthfi Areta</string>
+    <string name="waktuSE">10:00</string>
+    <string name="point1">Poin 1</string>
+    <string name="point">Poin</string>
+    <string name="TL">Tindak Lanjut Atasan</string>
+    <string name="data_pegawai">Data Pegawai</string>
+    <string name="data_rapat">Data Rapat</string>
+    <string name="simpan">Simpan</string>
+    <string name="dataTl">Tindak Lanjut Kaban</string>
+</resources>
