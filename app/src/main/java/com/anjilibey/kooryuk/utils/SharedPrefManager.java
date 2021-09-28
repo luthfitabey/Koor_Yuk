@@ -24,9 +24,7 @@ public class SharedPrefManager {
         spEditor.commit();
     }
     public void deleteSPString(String keySP){
-        spEditor.clear().commit();
-//        spEditor.clear();
-//        spEditor.commit();
+        spEditor.remove(keySP).commit();
     }
 
     public void saveSPInt(String keySP, int value){

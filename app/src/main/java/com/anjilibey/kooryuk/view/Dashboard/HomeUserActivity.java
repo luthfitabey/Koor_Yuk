@@ -92,7 +92,7 @@ public class HomeUserActivity extends AppCompatActivity {
     }
 
     public void btnLogOut(View view) {
-//        sharedPrefManager.saveSPBoolean(SharedPrefManager.SP_SUDAH_LOGIN, false);
+        sharedPrefManager.saveSPBoolean(SharedPrefManager.SP_SUDAH_LOGIN, false);
         sharedPrefManager.deleteSPString(SharedPrefManager.SP_TOKEN);
         Toast.makeText(HomeUserActivity.this, "Berhasil Keluar", Toast.LENGTH_SHORT).show();
         startActivity(new Intent(HomeUserActivity.this, LoginActivity.class)

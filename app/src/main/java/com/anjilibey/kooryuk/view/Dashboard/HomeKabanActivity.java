@@ -88,9 +88,8 @@ public class HomeKabanActivity extends AppCompatActivity {
     }
 
     public void btnLogOut(View view) {
-//        sharedPrefManager.saveSPBoolean(SharedPrefManager.SP_SUDAH_LOGIN, false);
-        sharedPrefManager.deleteSPString(SharedPrefManager.SP_TOKEN);
-        Toast.makeText(HomeKabanActivity.this, "Berhasil Keluar", Toast.LENGTH_SHORT).show();
+        sharedPrefManager.saveSPBoolean(SharedPrefManager.SP_SUDAH_LOGIN, false);
+        sharedPrefManager.deleteSPString(SharedPrefManager.SP_TOKEN);        Toast.makeText(HomeKabanActivity.this, "Berhasil Keluar", Toast.LENGTH_SHORT).show();
         startActivity(new Intent(HomeKabanActivity.this, LoginActivity.class)
                 .addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK));
         finish();
